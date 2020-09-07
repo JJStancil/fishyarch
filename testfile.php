@@ -4,11 +4,11 @@ if(isset($_POST["Submit"])) {
     $Username = $_POST["Username"];
     $Password = $_POST["Password"];
 
-    if ($Username=="Jason" && $Password=="Tester") {
+    if ($Username=="Jason" && $Password=="Tester123") {
         echo "<h2>Welcome : {$_POST["Username"]}</h2>";
     }
     else {
-        echo "<h2>Account Does't Exists | Try Again</h2>";
+        echo "<h2>Account Does't Exists | Please Try Again</h2>";
 
     }
 }
